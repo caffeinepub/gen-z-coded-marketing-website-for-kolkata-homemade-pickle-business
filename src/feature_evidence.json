@@ -1,0 +1,44 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-remove-explicit-mentions-of-indian-nepali-youth-youths-across-all-user-facing-marketing-copy-and-replace-with-inclusive-phrasing-aimed-at-youths-missing-the-taste-of-home-or-equivalent-while-keeping-the-kolkata-homemade-positioning",
+      "featureTitle": "Remove explicit mentions of “Indian Nepali youth/youths” across all user-facing marketing copy and replace with inclusive phrasing aimed at “youths missing the taste of home” (or equivalent), while keeping the Kolkata homemade positioning.",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/SiteFooter.tsx",
+        "frontend/src/sections/HomeHeroSection.tsx",
+        "frontend/src/sections/OurStorySection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-products-flavors-list-to-include-exactly-these-flavors-dalle-ko-achar-aam-ko-achar-mula-ko-achar-bhaisi-ko-achar-chicken-ko-achar-ensure-the-flavor-names-render-in-the-our-flavors-grid-and-remain-in-english-ui-context-descriptions-can-be-english",
+      "featureTitle": "Update the Products/Flavors list to include exactly these flavors: Dalle ko achar, aam ko achar, mula ko achar, bhaisi ko achar, chicken ko achar. Ensure the flavor names render in the “Our Flavors” grid and remain in English UI context (descriptions can be English).",
+      "files": [
+        "frontend/src/sections/ProductsSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

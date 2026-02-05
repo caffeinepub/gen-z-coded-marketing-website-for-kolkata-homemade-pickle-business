@@ -1,0 +1,20 @@
+{
+  "frontend/src/App.tsx": "Main application component managing view state (home/submissions), document title updates, and rendering the complete site structure with header, sections, footer, and toast notifications with proper React imports.",
+  "frontend/src/components/SiteHeader.tsx": "Sticky header component with logo, desktop navigation menu, mobile sheet menu, and smooth scroll navigation to sections plus internal submissions link.",
+  "frontend/src/components/SiteFooter.tsx": "Footer component displaying brand info with updated inclusive messaging for youths everywhere, contact details, social media links, and attribution with caffeine.ai link.",
+  "frontend/src/components/Section.tsx": "Reusable section wrapper component providing consistent spacing, max-width container, and semantic section structure.",
+  "frontend/src/components/BrandBadge.tsx": "Styled badge component wrapping shadcn Badge with brand-specific styling for consistent accent elements across the site.",
+  "frontend/src/components/ProductCard.tsx": "Product card component displaying pickle name, description, and dynamic spice level indicator with flame icons and color-coded badges.",
+  "frontend/src/sections/HomeHeroSection.tsx": "Hero section with headline, value proposition copy updated to reference youths missing the taste of home, CTA buttons, and hero banner image.",
+  "frontend/src/sections/ProductsSection.tsx": "Products section displaying product set image and grid of five pickle flavors (Dalle ko achar, aam ko achar, mula ko achar, bhaisi ko achar, chicken ko achar) with ProductCard components showing spice levels.",
+  "frontend/src/sections/OurStorySection.tsx": "Story section with narrative about Kolkata roots, homemade quality, and three icon-based value propositions with updated inclusive community messaging.",
+  "frontend/src/sections/ReviewsSection.tsx": "Reviews section displaying three testimonial cards with avatars, ratings, and customer quotes in a responsive grid.",
+  "frontend/src/sections/FaqSection.tsx": "FAQ section using shadcn Accordion to display five common questions about shipping, storage, spice levels, and customization.",
+  "frontend/src/sections/ContactSection.tsx": "Contact form section with name, email, message fields, backend submission via React Query, loading states, success/error alerts, and duplicate submission prevention.",
+  "frontend/src/views/SubmissionsView.tsx": "Internal admin view displaying all contact form submissions in a table with loading, error, and empty states.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for contact form submission mutation and fetching all submissions with toast notifications and cache invalidation.",
+  "frontend/src/lib/utils.ts": "Utility function combining clsx and tailwind-merge for conditional className merging.",
+  "frontend/src/index.css": "Global styles with warm pickle-inspired OKLCH color palette (chili red, mango yellow, turmeric), light/dark mode tokens, and accessibility focus styles.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with custom font stack, enhanced border radius variants, and soft shadow utilities.",
+  "frontend/index.html": "HTML entry point with updated SEO meta description targeting youths missing the taste of home instead of explicitly mentioning Indian Nepali youths."
+}

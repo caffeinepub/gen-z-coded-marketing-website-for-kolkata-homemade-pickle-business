@@ -1,2 +1,3 @@
-# gen-z-coded-marketing-website-for-kolkata-homemade-pickle-business
-Exported from Caffeine project: Gen Z-coded marketing website for Kolkata homemade pickle business
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

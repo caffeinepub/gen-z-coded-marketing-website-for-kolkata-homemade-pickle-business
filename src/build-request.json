@@ -1,0 +1,57 @@
+{
+  "kind": "build_request",
+  "title": "Update site copy to target youths missing the taste of home + refresh flavor lineup",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "text": "Remove explicit mentions of “Indian Nepali youth/youths” across all user-facing marketing copy and replace with inclusive phrasing aimed at “youths missing the taste of home” (or equivalent), while keeping the Kolkata homemade positioning.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "dont explicitly mention for indian nepali youth, just say for youths missing the taste of home."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section text no longer contains “Indian Nepali” wording (e.g., update the paragraph in frontend/src/sections/HomeHeroSection.tsx).",
+        "Our Story section highlights no longer contain “Serving Indian Nepali youth everywhere” (e.g., update the copy in frontend/src/sections/OurStorySection.tsx).",
+        "SEO meta description in frontend/index.html no longer contains “Indian Nepali youths” and instead describes the brand for youths missing the taste of home.",
+        "A case-insensitive search in the frontend codebase for “Indian Nepali” returns zero occurrences in user-facing text."
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Update the Products/Flavors list to include exactly these flavors: Dalle ko achar, aam ko achar, mula ko achar, bhaisi ko achar, chicken ko achar. Ensure the flavor names render in the “Our Flavors” grid and remain in English UI context (descriptions can be English).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "Add our flavors: Dalle ko achar, aam ko achar, mula ko achar, bhaisi ko achar, chicken ko achar"
+        ]
+      },
+      "acceptanceCriteria": [
+        "frontend/src/sections/ProductsSection.tsx product data is updated so the rendered product cards show exactly the 5 requested flavor names.",
+        "The previous flavors (e.g., Nimbu Achar, Mirchi ka Achar, Mixed Veg Achar, Gajar ka Achar, Lahsun ka Achar) are no longer shown in the Products/Flavors grid.",
+        "The Products section renders without layout issues on mobile and desktop after the flavor update."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify files under frontend/src/components/ui (read-only).",
+    "Backend remains single-actor; no backend changes are required for these copy/product updates."
+  ],
+  "nonGoals": [
+    "Adding e-commerce (cart, checkout, payments).",
+    "Adding authentication or gating for the marketing pages.",
+    "Changing the contact form persistence or submissions admin view behavior."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

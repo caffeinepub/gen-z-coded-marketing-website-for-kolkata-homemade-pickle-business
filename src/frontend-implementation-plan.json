@@ -1,0 +1,55 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Refresh marketing copy + update flavors lineup",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "summary": "Replace explicit “Indian Nepali youth/youths” mentions with inclusive “youths missing the taste of home” phrasing while keeping Kolkata homemade positioning across marketing copy and SEO.",
+      "acceptanceCriteria": [
+        "Hero section text no longer contains “Indian Nepali” wording (e.g., update the paragraph in frontend/src/sections/HomeHeroSection.tsx).",
+        "Our Story section highlights no longer contain “Serving Indian Nepali youth everywhere” (e.g., update the copy in frontend/src/sections/OurStorySection.tsx).",
+        "SEO meta description in frontend/index.html no longer contains “Indian Nepali youths” and instead describes the brand for youths missing the taste of home.",
+        "A case-insensitive search in the frontend codebase for “Indian Nepali” returns zero occurrences in user-facing text."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/sections/HomeHeroSection.tsx",
+          "operation": "modify",
+          "description": "Update the hero paragraph marketing copy to remove “Indian Nepali youths” and replace it with inclusive phrasing aimed at youths missing the taste of home, while retaining the homemade-in-Kolkata positioning."
+        },
+        {
+          "path": "frontend/src/sections/OurStorySection.tsx",
+          "operation": "modify",
+          "description": "Update the “For Our Community” highlight copy to remove “Serving Indian Nepali youth everywhere” and replace with inclusive “youths missing the taste of home” phrasing (or equivalent), keeping the brand/community tone."
+        },
+        {
+          "path": "frontend/src/components/SiteFooter.tsx",
+          "operation": "modify",
+          "description": "Update footer marketing copy to remove “Indian Nepali youths” wording and replace with inclusive phrasing aligned with “youths missing the taste of home,” while still referencing Kolkata/homemade roots."
+        },
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Revise the meta description to remove “Indian Nepali youths” and describe the brand as homemade pickles from Kolkata for youths missing the taste of home (or equivalent)."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Refresh the “Our Flavors” grid to show exactly the five requested flavor names in English UI context.",
+      "acceptanceCriteria": [
+        "frontend/src/sections/ProductsSection.tsx product data is updated so the rendered product cards show exactly the 5 requested flavor names.",
+        "The previous flavors (e.g., Nimbu Achar, Mirchi ka Achar, Mixed Veg Achar, Gajar ka Achar, Lahsun ka Achar) are no longer shown in the Products/Flavors grid.",
+        "The Products section renders without layout issues on mobile and desktop after the flavor update."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/sections/ProductsSection.tsx",
+          "operation": "modify",
+          "description": "Update the local products array so the rendered ProductCard grid shows exactly these 5 flavor names (spelled as requested): “Dalle ko achar”, “aam ko achar”, “mula ko achar”, “bhaisi ko achar”, “chicken ko achar”. Remove the previous flavors from the array, and adjust/keep English descriptions and spice levels as needed to maintain clean card/layout rendering across breakpoints."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-05T18:43:12.239Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-7",
+        "summary": "Remove explicit mentions of “Indian Nepali youth/youths” across all user-facing marketing copy and replace with inclusive phrasing aimed at “youths missing the taste of home” (or equivalent), while keeping the Kolkata homemade positioning.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/sections/HomeHeroSection.tsx",
+          "frontend/src/sections/OurStorySection.tsx",
+          "frontend/src/components/SiteFooter.tsx",
+          "frontend/index.html"
+        ],
+        "matchedFiles": [
+          "frontend/src/sections/HomeHeroSection.tsx",
+          "frontend/src/sections/OurStorySection.tsx",
+          "frontend/src/components/SiteFooter.tsx",
+          "frontend/index.html"
+        ]
+      },
+      {
+        "id": "REQ-8",
+        "summary": "Update the Products/Flavors list to include exactly these flavors: Dalle ko achar, aam ko achar, mula ko achar, bhaisi ko achar, chicken ko achar. Ensure the flavor names render in the “Our Flavors” grid and remain in English UI context (descriptions can be English).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/sections/ProductsSection.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/sections/ProductsSection.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/src/components/SiteFooter.tsx",
+    "frontend/src/sections/HomeHeroSection.tsx",
+    "frontend/src/sections/OurStorySection.tsx",
+    "frontend/src/sections/ProductsSection.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

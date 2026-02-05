@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Website project for a Kolkata-based homemade pickle business targeting youths missing the taste of home; site should be easy to navigate with a Gen Z-coded style.",
+  "architectural_notes": [
+    "Brand positioning/copy: avoid explicit 'Indian Nepali youth' phrasing; use broader 'youths missing the taste of home' messaging.",
+    "Products/Flavors content must include: Dalle ko achar, aam ko achar, mula ko achar, bhaisi ko achar, chicken ko achar."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-easy-to-navigate-marketing-website-for-a-kolkata-based-homemade-pickle-business-targeting-indian-nepali-gen-z-youths-living-away-from-home-with-clear-top-navigation-and-a-mobile-friendly-layout",
+      "title": "Create a responsive, easy-to-navigate marketing website for a Kolkata-based homemade pickle business targeting Indian Nepali Gen Z youths living away from home, with clear top navigation and a mobile-friendly layout.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-coherent-gen-z-coded-visual-theme-colors-typography-spacing-components-that-feels-modern-playful-and-snack-brand-appropriate-and-apply-it-consistently-across-the-site-avoid-default-template-look",
+      "title": "Implement a coherent 'Gen Z-coded' visual theme (colors, typography, spacing, components) that feels modern, playful, and snack-brand appropriate, and apply it consistently across the site (avoid default/template look).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-core-site-sections-pages-with-polished-english-copy-tailored-to-indian-nepali-youths-away-from-home-home-hero-value-proposition-products-flavors-listing-our-story-kolkata-homemade-angle-reviews-testimonials-static-placeholders-faq-shipping-storage-spice-levels-and-contact-form-social-contact-details-placeholders",
+      "title": "Add core site sections/pages with polished English copy tailored to Indian Nepali youths away from home: Home (hero + value proposition), Products/Flavors listing, Our Story (Kolkata + homemade angle), Reviews/Testimonials (static placeholders), FAQ (shipping/storage/spice levels), and Contact (form + social/contact details placeholders).",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-contact-form-that-persists-submissions-in-the-motoko-backend-and-provides-a-simple-admin-friendly-listing-view-in-the-frontend-no-authentication-required-for-initial-build-clearly-label-as-internal-if-exposed",
+      "title": "Implement a contact form that persists submissions in the Motoko backend and provides a simple admin-friendly listing view in the frontend (no authentication required for initial build; clearly label as 'Internal' if exposed).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-basic-seo-and-sharing-metadata-page-title-description-reflecting-the-brand-kolkata-homemade-pickles-for-indian-nepali-youths-away-from-home-and-ensure-accessibility-basics-semantic-headings-keyboard-navigation-sufficient-contrast",
+      "title": "Add basic SEO and sharing metadata (page title, description) reflecting the brand (Kolkata homemade pickles for Indian Nepali youths away from home) and ensure accessibility basics (semantic headings, keyboard navigation, sufficient contrast).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-static-image-assets-from-frontend-public-assets-generated-and-use-them-in-the-hero-and-product-flavor-areas-no-backend-image-serving",
+      "title": "Render generated static image assets from frontend/public/assets/generated and use them in the hero and product/flavor areas (no backend image serving).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-explicit-mentions-of-indian-nepali-youth-youths-across-all-user-facing-marketing-copy-and-replace-with-inclusive-phrasing-aimed-at-youths-missing-the-taste-of-home-or-equivalent-while-keeping-the-kolkata-homemade-positioning",
+      "title": "Remove explicit mentions of “Indian Nepali youth/youths” across all user-facing marketing copy and replace with inclusive phrasing aimed at “youths missing the taste of home” (or equivalent), while keeping the Kolkata homemade positioning.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-products-flavors-list-to-include-exactly-these-flavors-dalle-ko-achar-aam-ko-achar-mula-ko-achar-bhaisi-ko-achar-chicken-ko-achar-ensure-the-flavor-names-render-in-the-our-flavors-grid-and-remain-in-english-ui-context-descriptions-can-be-english",
+      "title": "Update the Products/Flavors list to include exactly these flavors: Dalle ko achar, aam ko achar, mula ko achar, bhaisi ko achar, chicken ko achar. Ensure the flavor names render in the “Our Flavors” grid and remain in English UI context (descriptions can be English).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create an easy-to-navigate, Gen Z-coded marketing website for a Kolkata-based homemade pickle business targeting Indian Nepali youths living away from home.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Update site copy to avoid explicitly mentioning 'Indian Nepali youth' and instead position the brand for 'youths missing the taste of home'; add flavors list: Dalle ko achar, aam ko achar, mula ko achar, bhaisi ko achar, chicken ko achar.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Gen Z-coded marketing website for Kolkata homemade pickle business",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

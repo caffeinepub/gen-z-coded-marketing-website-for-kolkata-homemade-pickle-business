@@ -1,0 +1,35 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-05T18:43:12.237Z",
+  "summary": "REQ-7 marketing copy updates appear implemented in Hero, Our Story, and index.html meta description, removing explicit “Indian Nepali” mentions. REQ-8 updates the Products/Flavors list to the requested five flavors, but several flavor names differ in capitalization from the exact spellings provided in the BuildRequest.",
+  "missing_requirements": [
+    {
+      "id": "REQ-8",
+      "requirement": "Update the Products/Flavors list to include exactly these flavors: Dalle ko achar, aam ko achar, mula ko achar, bhaisi ko achar, chicken ko achar.",
+      "reason": "The ProductsSection uses different capitalization for 4 of the 5 flavor names (Aam/Mula/Bhaisi/Chicken) rather than the exact spellings shown in the requirement (aam/mula/bhaisi/chicken).",
+      "evidence": [
+        "frontend/src/sections/ProductsSection.tsx"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Added/changed footer attribution including “© 2026” and an external “caffeine.ai” link.",
+      "reason": "The BuildRequest only asked for marketing copy adjustments (removing “Indian Nepali youth/youths”) and a flavors list refresh; it did not request adding/updating an external attribution link or changing the copyright year.",
+      "evidence": [
+        "frontend/src/components/SiteFooter.tsx"
+      ]
+    }
+  ],
+  "confidence": 0.74,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/index.html",
+    "frontend/src/components/SiteFooter.tsx",
+    "frontend/src/sections/HomeHeroSection.tsx",
+    "frontend/src/sections/OurStorySection.tsx",
+    "frontend/src/sections/ProductsSection.tsx",
+    "project_state.json"
+  ]
+}
